@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This forces the background color if Tailwind is being shy */
+body {
+  margin: 0;
+  background-color: #f0f4f8 !important; 
+}
